@@ -42,15 +42,15 @@
 
 |ITEM| DETALHES|
 |:---|:---|
-| NOME|Fórmula X. |
-| Lider do Projeto|Matheus Lucas Batista. |
-| Principal Objetivo |Prototipar uma plataforma de gerenciamento de cursos. |
-| Benefícios Esperados |Redução de custos com licenças de cursos, Autonomia de criação de conteúdo, Democratização do ensino. |
-| Início e Término Previstos |01/10/2024 - 11/03/2025. |
+| NOME|IFRO EVENTS. |
+| Lider do Projeto|Luis Felipe Lopes. |
+| Principal Objetivo |Prototipar uma plataforma de divulgação de eventos. |
+| Benefícios Esperados |Facilitar a divulgação e a visualização dos eventos promovidos pelo instituto. |
+| Início e Término Previstos |26/03/2025 - 16/07/2025. |
 
 
 # INTRODUÇÃO
-A plataforma "Fórmula X" nasceu da necessidade de disponibilizar conteúdos extras e promover a continuidade do aprendizado, principalmente para alunos que precisam de aprofundamento em disciplinas específicas. Utilizamos como referência a ideia de MOOC (Massive Open Online Courses) para atingir um maior número de pessoas, oferecendo flexibilidade e escalabilidade.  
+A plataforma "Ifro Events" nasceu da necessidade da divulgação de eventos promovidos ou organizados através do instituto. Utilizamos como referência a ideia de totens interativos, oferecendo flexibilidade e facilidade na visualização.  
 
 
 ## PROPÓSITO DESTE DOCUMENTO
@@ -62,8 +62,8 @@ O objetivo deste documento é descrever a concepção do sistema, seus requisito
 Métodos utilizados para a obtenção dos requisitos do sistema:  
   * Brainstorming e discussões entre os stakeholders;  
   * Análise de necessidades e expectativas de alunos;  
-  * Protótipos iniciais no Figma;  
-  * Definição de prioridades e funcionalidades-chave por meio de Kanban.
+  * Protótipos no Figma;  
+  * Definição de prioridades e funcionalidades-chave por meio de Kanban e Scrum.
     
 ---  
 
@@ -72,27 +72,27 @@ Métodos utilizados para a obtenção dos requisitos do sistema:
 ### USUÁRIOS DO SISTEMA
 |USUÁRIO|DESCRIÇÃO|
 |:---|:---|
-|Administrador|Responsável pela gestão do sistema e administração e produção dos conteúdos mantidos na plataforma.|
-|Alunos|Consumidores dos conteúdos presentes na plataforma.|
+|Administrador|Responsável pela gestão do sistem e administração e cadastro dos eventos mantidos no sistema.|
+|Usuários|Consumidores do sistema e alvos da divulgação dos eventos.|
 
 
 ### SISTEMAS SIMILARES:
-O projeto se assemelha a plataformas como Coursera(https://www.coursera.org) e Udemy(https://www.udemy.com), cujos objetivos incluem a hospedagem, organização e disponibilização de cursos de diversos temas. No entanto, a “Fórmula X” busca oferecer uma experiência mais direcionada a conteúdos complementares de acordo com as necessidades de cada aluno na instituição.
+O projeto se assemelha a plataformas como Eventool(https://www.eventool.com), cujos objetivos incluem o gerenciamento e a divulgação de eventos com uma interface simples e funcional. No entanto, o “Ifro Events” busca oferecer uma experiência mais direcionada para totens interativos de acordo com as necessidades da divulgação dos eventos ofertados ou organizados pela instituição.
 
 ### SUPOSIÇÕES E DEPENDÊNCIAS
 
-Os usuários poderão acessar a plataforma através de computadores ou dispositivos móveis com acesso à internet para usufruir dos conteúdos disponibilizados. Como se trata de uma aplicação web, não há uma configuração mínima específica para visualização. No entanto, para os responsáveis pela administração do sistema, é recomendado o uso de um computador para a criação e gestão dos cursos, já que essas atividades exigem maior interação com as funcionalidades de gerenciamento.
+Os usuários poderão acessar a plataforma através de computadores ou totens interativos com acesso à internet para usufruir dos eventos disponibilizados na plataforma. Como se trata de uma aplicação interativa, o mínimo que espera-se é uma configuração de tela touchscreen para visualização e inteação com o sistema. No entanto, para os responsáveis pela administração do sistema, é recomendado o uso de um computador para a criação e gestão dos eventos, já que essas atividades exigem maior interação com as funcionalidades de gerenciamento.
 
 ---  
 
 # ESTUDO DE VIABILIDADE
 
-Após identificar a demanda por material de apoio em formato virtual, analisou-se a viabilidade técnica e financeira do projeto, considerando os recursos necessários para hospedagem, desenvolvimento e manutenção. Concluiu-se que a criação de uma plataforma MOOC é viável, trazendo benefícios de acessibilidade e flexibilidade na aprendizagem.  
+Após identificar um deficit acerca da divulgação dos eventos organizados, analisou-se a viabilidade técnica e financeira do projeto, considerando os recursos necessários para hospedagem, desenvolvimento e manutenção. Concluiu-se que a criação de uma plataforma para atender essa demanda é viável, trazendo benefícios de acessibilidade e flexibilidade.  
 
 --- 
 
 # METODOLOGIA ADOTADA NO DESENVOLVIMENTO
-Foi adotado um modelo de desenvolvimento baseado em Kanban, contemplando análise de Throughput, Lead Time e Cycle Time para monitorar o progresso do projeto. Também foram utilizados protótipos no Figma para validação prévia da interface, além de revisões e ajustes contínuos com a equipe.  
+Foi adotado um modelo de desenvolvimento baseado em Kanban e Scrum, contemplando análise de Backlogs, para monitorar o progresso do projeto. Também foram utilizados protótipos no Figma para validação prévia da interface, além de revisões e ajustes contínuos com a equipe.  
 
 
 [ [INÍCIO](#projeto-de-software---fórmula-x) ]

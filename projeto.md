@@ -1,7 +1,7 @@
 
-# PROJETO DE SOFTWARE - _Fórmula X_
+# PROJETO DE SOFTWARE - _Ifro Events_
 
-![Fórmula X](img/Capa.png)
+![Ifro Events](img/Capa.png)
 
 ## *STAKEHOLDERS*
 |STAKEHOLDER|INTERESSE NO SISTEMA|

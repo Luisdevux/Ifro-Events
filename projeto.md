@@ -1,5 +1,5 @@
 
-# PROJETO DE SOFTWARE - _Ifro Events_
+# PROJETO DE SOFTWARE - _IFRO EVENTS_
 
 ![Ifro Events](img/Capa.png)
 

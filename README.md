@@ -33,7 +33,8 @@ Ao final, o repositório deverá possuir o seguinte conteúdo:
 - Arquivo [projeto.md](projeto.md) com as devidas modificações
 
 - Diretório [img/figma](/img/figma) contendo:
-    1. Imagens do protótipo Figma
+    1. Capa do projeto
+    2. Imagens do protótipo Figma
 
 - Arquivo [LICENSE](LICENSE) contendo licenciamento [MIT](https://choosealicense.com/licenses/mit/)
 

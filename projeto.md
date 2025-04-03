@@ -99,17 +99,16 @@ Foi adotado um modelo de desenvolvimento baseado em Kanban e Scrum, contemplando
 A especificação dos requisitos deste projeto segue as recomendações da norma IEEE Std-830-1998, considerando as boas práticas para definição de requisitos.  
 
 ## REQUISITOS FUNCIONAIS
-
 A tabela a seguir contém a relação dos Requisitos Funcionais elicitados, com as colunas: identificador, nome e descrição:
 
-| IDENTIFICADOR | NOME                    | DESCRIÇÃO                                                                                                                                          |  
-|:-------------|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|  
-| **RF-001**   | Realizar Login        | Permite o administrador criar, atualizar e remover cursos, bem como incluir conteúdos extras para disponibilizar aos alunos.             |
-| **RF-002**   | Manter Eventos     | Permite o administrador incorporar vídeos do Youtube.            |
-| **RF-003**   | Partilha de Permissões para Edição | O administrador pode gerenciar os conteúdos extras dos cursos, como PDFs. |
-| **RF-004**   | Incorporar Imagens e Vídeos |  Permite o administrador criar, remover e tornar administrador os usuários. |
-| **RF-005**   | Visualizar Eventos Antigos   | O administrador pode acompanhar o progresso dos alunos em cada curso. |
-| **RF-006**   | Visualizar Eventos Futuros       | Os usuários podem acompanhar o próprio progresso em cada curso. |
+| IDENTIFICADOR | NOME                    | DESCRIÇÃO                                                                                                       |  
+|:-------------|:------------------------|:-----------------------------------------------------------------------------------------------------------------|  
+| **RF-001**   | Realizar Login        | Permite o administrador realizar login no sistema.   |
+| **RF-002**   | Manter Eventos     | Permite o administrador criar, atualizar e remover eventos.   |
+| **RF-003**   | Partilha de Permissões para Edição | Permite ao administrador compartilhar o link para edição de seus eventos cadastrados.   |
+| **RF-004**   | Incorporar Imagens e Vídeos | Permite o administrador incorporar vídeos e fotos acerca dos eventos a serem cadastrados.   |
+| **RF-005**   | Visualizar Eventos Antigos   | Os usuários podem visualizar eventos passados cadastrados no sistema.   |
+| **RF-006**   | Visualizar Eventos Futuros       | Os usuários podem visualizar eventos futuros e atuais cadastrados no sistema.   |
 
 
 ## REQUISITOS NÃO FUNCIONAIS

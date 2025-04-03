@@ -89,7 +89,7 @@ Após identificar um deficit acerca da divulgação dos eventos organizados, ana
 Foi adotado um modelo de desenvolvimento baseado em Kanban e Scrum, contemplando análise de Backlogs, para monitorar o progresso do projeto. Também foram utilizados protótipos no Figma para validação prévia da interface, além de revisões e ajustes contínuos com a equipe.  
 
 
-[ [INÍCIO](#projeto-de-software---fórmula-x) ]
+[ [INÍCIO](#projeto-de-software---ifro-events) ]
 
 
 ---  
@@ -127,17 +127,17 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 # PROTOTIPAGEM
 Os protótipos de telas foram desenvolvidos no Figma, representando o fluxo de navegação, a apresentação das funcionalidades e o fluxo de gerenciamento dos eventos.  
 
-**Figma:** [FórmulaX](https://www.figma.com/design/EZPCaUbsIDGNibsXkwhKEy/Eventos?node-id=0-1&t=LaEf47sO5ayA23wG-1)
+**Figma:** [Ifro Events](https://www.figma.com/design/EZPCaUbsIDGNibsXkwhKEy/Eventos?node-id=0-1&t=LaEf47sO5ayA23wG-1)
 
 ## Fluxo Usuário
-![Tela Inicial Sem Login](img/figma/Páginainicial-1.jp)  
+![Tela Login](img/figma/imagem.jpg)  
 
 
 ## Fluxo Administrador
-![Tela Gerenciamento de Usuários - Admin](img/figma/AcompanharAluno-Admin.jpg)  
+![Tela Gerenciamento de Eventos - Admin](img/figma/imagem.jpg)  
 
 
-[ [INÍCIO](#projeto-de-software---fórmula-x) ]
+[ [INÍCIO](#projeto-de-software---ifro-events) ]
 
 
 # EQUIPE DE DESENVOLVIMENTO E CLIENTE
@@ -162,4 +162,4 @@ Esta subseção apresenta as referências aos documentos que utilizamos no auxí
 * [Práticas para Especificação de Requisitos IEEE-830](https://ieeexplore.ieee.org/document/720574)
 ---  
 
-[ [INÍCIO](#projeto-de-software---fórmula-x) ]
+[ [INÍCIO](#projeto-de-software---ifro-events) ]

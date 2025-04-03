@@ -1,16 +1,15 @@
-# Plataforma de Cursos - MOOC 
-**Fórmula X**  
-![Fórmula X](img/Capa.png)
+# Plataforma de Divulgação de Eventos
+**Ifro Events**  
+![Ifro Events](img/Capa.png)
 
 
 
 **Projeto de Software da Fábrica**  
 
 ### Integrantes  
-- Matheus Lucas Batista  
 - Luis Felipe Lopes  
-- Thiago Hens Suchi  
-- Yuri Ribeiro Zetoles  
+- Kauã Gabriel Peres Cruz
+- Deivid Luiz Costa Pereira
 
 # Modelo de Projeto de Software
 

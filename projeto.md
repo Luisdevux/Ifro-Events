@@ -117,7 +117,7 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 | IDENTIFICADOR | NOME                           | DESCRIÇÃO                                                                                                |  
 |:-------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------|  
 | **RNF-001**  | Interface Simples e Intuitiva   | A interface deve ser intuitiva e clara tanto para administradores quanto para usuários.   |  
-| **RNF-002**  | Layout Pré-Definido na Criação de Eventos   | Algo vai vir aqui.   |  
+| **RNF-002**  | Layout Pré-Definido na Criação de Eventos   | A plataforma deve oferecer layouts prontos para cadastro de eventos.   |  
 | **RNF-003**  | Compatível com Telas Sensíveis ao Toque e Mouse   | O sistema deve ser compatível e adequado tanto para telas touch screen, quanto telas de computador. |
 | **RNF-004**  | Sistema Leve e Rápido para Carregar Eventos e Interações   | O sistema deve suportar as interações com as telas sem degradação perceptível de desempenho, garantindo um tempo de resposta de no máximo 1 segundo.   |
 | **RNF-005**  | Seguir a Identidade Visual do IFRO   | O design do sistema deve conter as logos de indêntidade do instituto. |  

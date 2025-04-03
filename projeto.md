@@ -75,7 +75,7 @@ O projeto se assemelha a plataformas como Eventool(https://www.eventool.com), cu
 
 ### SUPOSIÇÕES E DEPENDÊNCIAS
 
-Os usuários poderão acessar a plataforma através de computadores ou totens interativos com acesso à internet para usufruir dos eventos disponibilizados na plataforma. Como se trata de uma aplicação interativa, o mínimo que espera-se é uma configuração de tela touch screen para visualização e inteação com o sistema. No entanto, para os responsáveis pela administração do sistema, é recomendado o uso de um computador para a criação e gestão dos eventos, já que essas atividades exigem maior interação com as funcionalidades de gerenciamento.
+Os usuários poderão acessar a plataforma através de computadores ou totens interativos com acesso à internet para usufruir dos eventos disponibilizados na plataforma. Como se trata de uma aplicação interativa, o mínimo que espera-se é uma configuração de tela touch screen para visualização e interação com o sistema. No entanto, para os responsáveis pela administração do sistema, é recomendado o uso de um computador para a criação e gestão dos eventos, já que essas atividades exigem maior interação com as funcionalidades de gerenciamento.
 
 ---  
 

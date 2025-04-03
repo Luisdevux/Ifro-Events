@@ -17,7 +17,7 @@ Modelo de Projeto de Software para a Disciplina de Engenharia de Software.
 
 ## Objetivo
 
-O Objetivo deste Projeto é que os alunos sejam capazes de desenvolver a análise de um software, incluindo comunicação com cliente, criação de diagramas UML, documentação, etc.
+O Objetivo deste Projeto é que os alunos sejam capazes de desenvolver a análise de um software, incluindo comunicação com cliente e documentação, etc.
 
 ## Artefatos
 

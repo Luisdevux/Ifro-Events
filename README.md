@@ -30,9 +30,8 @@ Ao final, o repositório deverá possuir o seguinte conteúdo:
     - Link para o [projeto](projeto.md) com uma breve descrição do escopo do projeto (visão geral).
 - Arquivo [projeto.md](projeto.md) com as devidas modificações
 
-- Diretório [img](/img/) contendo:
+- Diretório [img](/img/figma) contendo:
     1. Imagens do protótipo
-    2. Imagens de todos os diagramas elaborados
 
 - Arquivo [LICENSE](LICENSE) contendo licenciamento [MIT](https://choosealicense.com/licenses/mit/)
 

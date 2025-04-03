@@ -6,9 +6,8 @@
 ## *STAKEHOLDERS*
 |STAKEHOLDER|INTERESSE NO SISTEMA|
 |:---|:---|
-|Instituição de Ensino|Assegurar um ensino de qualidade, visando fornecer uma plataforma gratuita de cursos para serem usadas por alunos e professores.|
-|Professores|Alinhar os cursos aos conteúdo acadêmicos.|
-|Alunos|Obter acesso a conteúdos gratuitos, garantindo conhecimentos extras além do conteúdo ministrado em sala de aula.|
+|Instituição de Ensino|Promover maior divulgação acerca dos eventos organizados, visando fornecer uma plataforma gratuita para serem usadas por usuários com algum tipo de ligação ao instituto.|
+|Usuários|Obter acesso a divulgação e visualização dos eventos, garantindo uma participação mais ampla as atividades organizadas.|
 
 
 # SUMÁRIO
@@ -27,11 +26,6 @@
   * [REQUISITOS FUNCIONAIS](#requisitos-funcionais)
   * [REQUISITOS NÃO FUNCIONAIS](#requisitos-não-funcionais)
 * [PROTOTIPAGEM](#prototipagem)
-* [DIAGRAMA DE CASOS DE USO](#diagrama-de-casos-de-uso)
-  * [ESPECIFICAÇÃO DOS CASOS DE USO](#descrição--especificação-dos-casos-de-uso)
-* [DIAGRAMA DE CLASSES](#diagrama-de-classes)
-* [DIAGRAMAS DE SEQUÊNCIA](#diagramas-de-sequência)
-* [DIAGRAMAS DE ATIVIDADE](#diagramas-de-atividade)
 * [EQUIPE DE DESENVOLVIMENTO E CLIENTE](#equipe-de-desenvolvimento-e-cliente)
   * [DESENVOLVEDORES](#desenvolvedores)
   * [CLIENTE](#cliente)
@@ -131,196 +125,20 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 
 # PROTOTIPAGEM
-Os protótipos de telas foram desenvolvidos no Figma, representando o fluxo de navegação, a apresentação de cursos e as funcionalidades de gerenciamento de conteúdo.  
+Os protótipos de telas foram desenvolvidos no Figma, representando o fluxo de navegação, a apresentação das funcionalidades e o fluxo de gerenciamento dos eventos.  
 
-**Figma:** [FórmulaX](https://www.figma.com/design/P4LvxMlaYkkMfNqySWYlZO/Material-UI-for-Figma-(and-MUI-X)-(Community)?node-id=6036-164056&t=S5gz36h34ju0wwj5-1)
+**Figma:** [FórmulaX](https://www.figma.com/design/EZPCaUbsIDGNibsXkwhKEy/Eventos?node-id=0-1&t=LaEf47sO5ayA23wG-1)
 
 ## Fluxo Usuário
-![Tela Inicial Sem Login](img/figma/Páginainicial-1.jpg)  
+![Tela Inicial Sem Login](img/figma/Páginainicial-1.jp)  
 
-![Tela Popup](img/figma/popup.jpg)  
-
-![Tela Popup Cadastro](img/figma/popupcadastro.jpg)  
-
-![Tela Popup Termos](img/figma/popuptermoslgpd.jpg)  
-
-![Tela Inicial Logado](img/figma/Páginainicial.jpg)  
-
-![Tela Meus Cursos](img/figma/CursosemAndamentoPrincipal.jpg)
-
-![Tela Curso em Andamento](img/figma/CursosemAndamento.jpg) 
-
-![Tela Curso Aula 1](img/figma/Conjuntosnuméricos-Curso.jpg)
-
-![Tela Curso Aula 1 com Desc](img/figma/Conjuntosnuméricos-Curso-1.jpg)  
-
-![Tela Curso Aula 2](img/figma/Conjuntosnuméricos-Curso-2.jpg)    
-
-![Tela Curso Aula 3](img/figma/Conjuntosnuméricos-Curso-3.jpg)  
-
-![Tela Curso Aula 3 Concluída](img/figma/Conjuntosnuméricos-Curso-4.jpg)
-
-![Tela Área do Usuário](img/figma/Áreadousuário.jpg)
 
 ## Fluxo Administrador
 ![Tela Gerenciamento de Usuários - Admin](img/figma/AcompanharAluno-Admin.jpg)  
 
-![Tela Progresso de Usuários - Admin](img/figma/ProgressoAluno-Admin.jpg)  
-
-![Tela Gerenciamento de Cursos - Admin](img/figma/GerenciamentodeCursos-Admin.jpg) 
-
-![Tela Criar Curso](img/figma/CriarCurso-Admin.jpg)
-
-![Tela Criar Curso Preenchida - Admin](img/figma/CriarCurso-Admin-3.jpg)
-
-![Tela Criar Aula - Admin](img/figma/CriarCurso-Admin-2.jpg)  
-
-![Tela Criar Aula Preenchida - Admin](img/figma/CriarCurso-Admin-1.jpg) 
-
 
 [ [INÍCIO](#projeto-de-software---fórmula-x) ]
 
-
-# DIAGRAMA DE CASOS DE USO
-
-![Diagrama de Casos de Uso](img/DiagramUseCaseFórmulaX.png)
-
-## DESCRIÇÃO / ESPECIFICAÇÃO DOS CASOS DE USO
-
-### UC-01 - Login  
-
-| **UC-01 - Login**       |  
-|:------------------------|  
-| **Descrição/Objetivo:** Permitir que o usuário entre no sistema utilizando credenciais. |  
-| **Atores:** Usuário  |  
-| **Pré-condições:** O usuário deve ter um perfil cadastrado no sistema. |  
-| **Pós-condições:** O usuário é redirecionado para o dashboard. |  
-| **Fluxo Principal / Básico:**       |  
-| 1. O usuário acessa a tela de login. |  
-| 2. Insere seu nome de usuário e senha. |  
-| 3. O sistema autentica as credenciais e redireciona para o a tela inicial do sistema. |  
-| **Fluxos Alternativos / Exceções:** |  
-| **A1: Credenciais inválidas** |  
-| 1. O sistema exibe uma mensagem de erro informando que as credenciais estão incorretas. |  
-
-### UC-02 - Cadastrar  
-
-| **UC-02 - Cadastrar**       |  
-|:-----------------------------|  
-| **Descrição/Objetivo:** Permitir que novos usuários se registrem no sistema. |  
-| **Atores:** Usuário  |  
-| **Pré-condições:** O usuário não deve estar autenticado. |  
-| **Pós-condições:** Um novo perfil é criado no sistema. |  
-| **Fluxo Principal / Básico:**       |  
-| 1. O usuário acessa a tela de cadastro. |  
-| 2. Preenche os campos obrigatórios (nome, e-mail, senha). |  
-| 3. O sistema valida as informações e cria um novo perfil. |  
-| **Fluxos Alternativos / Exceções:** |  
-| **A1: E-mail já cadastrado** |  
-| 1. O sistema informa que o e-mail já está em uso e solicita outro. |  
-
-### UC-03 - Acompanhar Progresso  
-
-| **UC-03 - Acompanhar Progresso**       |  
-|:----------------------------------------|  
-| **Descrição/Objetivo:** Monitorar seu progresso acadêmico. |  
-| **Atores:** Usuário  |  
-| **Pré-condições:** O usuário deve estar autenticado. |  
-| **Pós-condições:** O usuário visualiza seu progresso atualizado. |  
-| **Fluxo Principal / Básico:**       |  
-| 1. O usuário acessa a seção de acompanhamento de progresso. |  
-| 2. Visualiza os cursos, tarefas e atividades concluídas. |  
-| 3. O sistema exibe gráficos e estatísticas relacionadas ao progresso acadêmico. |  
-
-### UC-04 - Gerenciar Usuários  
-
-| **UC-04 - Gerenciar Usuários**       |  
-|:-------------------------------------|  
-| **Descrição/Objetivo:** Permitir ao administrador gerenciar os usuários do sistema. |  
-| **Atores:** Admin  |  
-| **Pré-condições:** O administrador deve estar autenticado. |  
-| **Pós-condições:** O sistema atualiza a lista de usuários. |  
-| **Fluxo Principal / Básico:**       |  
-| 1. O administrador acessa a seção de gerenciamento de usuários. |  
-| 2. Adiciona ou exclui usuários. |  
-| 3. Visualiza e atribui permissões para cada usuário. |  
-
-### UC-05 - Gerenciar Cursos  
-
-| **UC-05 - Gerenciar Cursos**       |  
-|:-----------------------------------|  
-| **Descrição/Objetivo:** Permitir ao administrador gerenciar cursos, vídeos, tópicos e PDFs. |  
-| **Atores:** Admin  |  
-| **Pré-condições:** O administrador deve estar autenticado. |  
-| **Pós-condições:** O sistema atualiza as informações dos cursos. |  
-| **Fluxo Principal / Básico:**       |  
-| 1. O administrador acessa a seção de gerenciamento de cursos. |  
-| 2. Adiciona novos cursos, vídeos, tópicos ou PDFs. |  
-| 3. Configura as permissões e informações dos cursos. |  
-
-### UC-06 - Acessar Conteúdos  
-
-| **UC-06 - Acessar Conteúdos**       |  
-|:------------------------------------|  
-| **Descrição/Objetivo:** Permitir que o aluno visualize e estude os conteúdos dos cursos disponíveis na plataforma. |  
-| **Atores:** Aluno (Usuário Padrão)  |  
-| **Pré-condições:** O aluno deve estar autenticado na plataforma e inscrito em pelo menos um curso. |  
-| **Pós-condições:** O sistema deve registrar o progresso do aluno no curso. |  
-| **Fluxo Principal / Básico:**       |  
-| 1. O aluno acessa o sistema e efetua login. |  
-| 2. O aluno seleciona o curso desejado. |  
-| 3. O sistema exibe os módulos e conteúdos do curso. |  
-| 4. O aluno pode abrir qualquer unidade, assistir vídeos e ler materiais. |  
-| 5. O sistema registra o progresso de leitura ou visualização. |  
-| **Fluxos Alternativos / Exceções:** |  
-| **A1: Erro de conexão ou servidor indisponível** |  
-| 1. O aluno recebe uma mensagem de erro e aguarda a restauração do serviço. | 
-
-
-[ [INÍCIO](#projeto-de-software---fórmula-x) ]
-
----  
-
-
-# DIAGRAMA DE CLASSES
-
-![Diagrama de Classes](img/DiagramClassFórmulaX.png)
-
----  
-
-
-# DIAGRAMAS DE SEQUÊNCIA
-
-![Diagrama de Sequência](img/DiagramSequencePaginadeLogin.png)  
-
-![Diagrama de Sequência](img/DiagramSequencePaginaInicial.png)  
-
-![Diagrama de Sequência](img/DiagramSequencePaginaMeusCursos.png)  
-
-![Diagrama de Sequência](img/DiagramSequencePaginadoCurso.png)  
-
-![Diagrama de Sequência](img/DiagramSequencePaginadeVisualizacao.png)  
-
-![Diagrama de Sequência](img/DiagramSequencePaginadePerfil.png)  
-
-![Diagrama de Sequência](img/DiagramSequenceGerenciamentodeUsuario.png)  
-
-![Diagrama de Sequência](img/DiagramSequenceGerenciamentodeCursos.png)  
-
-![Diagrama de Sequência](img/DiagramSequenceGerenciamentodeAulas.png)  
-
---- 
-
-
-# DIAGRAMAS DE ATIVIDADE
-
-![Diagrama de Atividade](img/DiagramActivityAssistirCurso.png)
-
-![Diagrama de Atividade](img/DiagramActivityGerenciamentoCurso.png)
-
-![Diagrama de Atividade](img/DiagramActivityGerenciamentoUsuarios.png)
-
----  
 
 # EQUIPE DE DESENVOLVIMENTO E CLIENTE
 
@@ -328,21 +146,19 @@ Os protótipos de telas foram desenvolvidos no Figma, representando o fluxo de n
 
 |NOME|CARGO|E-MAIL|
 |:---|:---|:---|
-|Matheus Lucas Batista|Gerente de projeto/Analista|matheusifro2020@gmail.com|
-|Luis Felipe Lopes|Analista|luis.felipe.lopes1275@gmail.com|
-|Thiago Hens Suchi|Analista|thiagohenssuchi@gmail.com|
-|Yuri Ribeiro Zetoles|Analista|yurizetoles0123@gmail.com|
+|Luis Felipe Lopes|Gerente de projeto/Analista|luis.felipe.lopes1275@gmail.com|
+|Kauã Gabriel Peres Cruz|Analista|email|
+|Deivid Luiz Costa Pereira|Analista|email|
 
 ### CLIENTE
 
 |NOME|
 |:---|
-|Marco Antônio Augusto de Andrade|
+|Sankeis Pacheco de Oliveira da Silva|
 
 # REFERÊNCIAS
 
 Esta subseção apresenta as referências aos documentos que utilizamos no auxílio à construção deste documento.
-* [UML](https://www.omg.org/spec/UML/2.5/About-UML/)
 * [Práticas para Especificação de Requisitos IEEE-830](https://ieeexplore.ieee.org/document/720574)
 ---  
 

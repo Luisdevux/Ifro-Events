@@ -104,12 +104,12 @@ A tabela a seguir contém a relação dos Requisitos Funcionais elicitados, com 
 
 | IDENTIFICADOR | NOME                    | DESCRIÇÃO                                                                                                                                          |  
 |:-------------|:------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------|  
-| **RF-001**   | Manter Cursos        | Permite o administrador criar, atualizar e remover cursos, bem como incluir conteúdos extras para disponibilizar aos alunos.             |
-| **RF-002**   | Incorporar Vídeos     | Permite o administrador incorporar vídeos do Youtube.            |
-| **RF-003**   | Gerenciar Conteúdo Extra | O administrador pode gerenciar os conteúdos extras dos cursos, como PDFs. |
-| **RF-004**   | Manter Usuários |  Permite o administrador criar, remover e tornar administrador os usuários. |
-| **RF-005**   | Acompanhar Progresso     | O administrador pode acompanhar o progresso dos alunos em cada curso. |
-| **RF-006**   | Acompanhar o Próprio Progresso       | Os usuários podem acompanhar o próprio progresso em cada curso. |
+| **RF-001**   | Realizar Login        | Permite o administrador criar, atualizar e remover cursos, bem como incluir conteúdos extras para disponibilizar aos alunos.             |
+| **RF-002**   | Manter Eventos     | Permite o administrador incorporar vídeos do Youtube.            |
+| **RF-003**   | Partilha de Permissões para Edição | O administrador pode gerenciar os conteúdos extras dos cursos, como PDFs. |
+| **RF-004**   | Incorporar Imagens e Vídeos |  Permite o administrador criar, remover e tornar administrador os usuários. |
+| **RF-005**   | Visualizar Eventos Antigos   | O administrador pode acompanhar o progresso dos alunos em cada curso. |
+| **RF-006**   | Visualizar Eventos Futuros       | Os usuários podem acompanhar o próprio progresso em cada curso. |
 
 
 ## REQUISITOS NÃO FUNCIONAIS
@@ -117,10 +117,12 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 | IDENTIFICADOR | NOME                           | DESCRIÇÃO                                                                                                |  
 |:-------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------|  
-| **RNF-001**  | Desempenho e Escalabilidade                      | O sistema deve suportar simultaneamente pelo menos 100 usuários ativos sem degradação perceptível de desempenho, garantindo um tempo de resposta de no máximo 1 segundo. |  
-| **RNF-002**  | Usabilidade                     | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |  
-| **RNF-003**  |Acessibilidade Multiplataforma             | O sistema será acessível via navegador, com design responsivo para dispositivos móveis, permitindo aos usuários acessarem os cursos de qualquer lugar. |
-| **RNF-004**  | Formato Markdown                  | O sistema possuirá campos de textos em formato Markdown para que seja realizada a formatação da maneira que desejar nos campos de texto. |
+| **RNF-001**  | Interface Simples e Intuitiva   | O sistema deve suportar simultaneamente pelo menos 100 usuários ativos sem degradação perceptível de desempenho, garantindo um tempo de resposta de no máximo 1 segundo. |  
+| **RNF-002**  | Layout Pré-Definido na Criação de Eventos   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |  
+| **RNF-003**  | Compatível com Telas Sensíveis ao Toque e Mouse   | O sistema será acessível via navegador, com design responsivo para dispositivos móveis, permitindo aos usuários acessarem os cursos de qualquer lugar. |
+| **RNF-004**  | Sistema Leve e Rápido para Carregar Eventos e Interações   | O sistema possuirá campos de textos em formato Markdown para que seja realizada a formatação da maneira que desejar nos campos de texto. |
+| **RNF-005**  | Seguir a Identidade Visual do IFRO   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |  
+| **RNF-006**  | Elementos Interativos como Botões para Visualizar Fotos, Inscrições e Informações   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |
 ---  
 
 

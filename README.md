@@ -4,7 +4,9 @@
 
 
 
-**Projeto de Software da Fábrica**  
+**Projeto de Software da Fábrica II**  
+
+Projeto novo feito do 0, com elicitação de requisitos, prototipagem, e criação do banco de dados.
 
 ### Integrantes  
 - Luis Felipe Lopes  

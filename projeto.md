@@ -116,10 +116,10 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 
 | IDENTIFICADOR | NOME                           | DESCRIÇÃO                                                                                                |  
 |:-------------|:-------------------------------|:----------------------------------------------------------------------------------------------------------|  
-| **RNF-001**  | Interface Simples e Intuitiva   | O sistema deve suportar simultaneamente pelo menos 100 usuários ativos sem degradação perceptível de desempenho, garantindo um tempo de resposta de no máximo 1 segundo. |  
-| **RNF-002**  | Layout Pré-Definido na Criação de Eventos   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |  
-| **RNF-003**  | Compatível com Telas Sensíveis ao Toque e Mouse   | O sistema será acessível via navegador, com design responsivo para dispositivos móveis, permitindo aos usuários acessarem os cursos de qualquer lugar. |
-| **RNF-004**  | Sistema Leve e Rápido para Carregar Eventos e Interações   | O sistema possuirá campos de textos em formato Markdown para que seja realizada a formatação da maneira que desejar nos campos de texto. |
+| **RNF-001**  | Interface Simples e Intuitiva   | A interface deve ser intuitiva e clara tanto para administradores quanto para usuários.   |  
+| **RNF-002**  | Layout Pré-Definido na Criação de Eventos   | Algo vai vir aqui.   |  
+| **RNF-003**  | Compatível com Telas Sensíveis ao Toque e Mouse   | O sistema deve ser compatível e adequado tanto para telas touch screen, quanto telas de computador. |
+| **RNF-004**  | Sistema Leve e Rápido para Carregar Eventos e Interações   | O sistema deve suportar as interações com as telas sem degradação perceptível de desempenho, garantindo um tempo de resposta de no máximo 1 segundo.   |
 | **RNF-005**  | Seguir a Identidade Visual do IFRO   | O design do sistema deve conter as logos de indêntidade do instituto. |  
 | **RNF-006**  | Elementos Interativos   | A interface deve conter elementos interativos como, botões para visualizar fotos, inscrições e informações sobre os eventos. |
 ---  

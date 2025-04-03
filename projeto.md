@@ -121,8 +121,8 @@ A tabela a seguir contém a relação com os Requisitos Não Funcionais identifi
 | **RNF-002**  | Layout Pré-Definido na Criação de Eventos   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |  
 | **RNF-003**  | Compatível com Telas Sensíveis ao Toque e Mouse   | O sistema será acessível via navegador, com design responsivo para dispositivos móveis, permitindo aos usuários acessarem os cursos de qualquer lugar. |
 | **RNF-004**  | Sistema Leve e Rápido para Carregar Eventos e Interações   | O sistema possuirá campos de textos em formato Markdown para que seja realizada a formatação da maneira que desejar nos campos de texto. |
-| **RNF-005**  | Seguir a Identidade Visual do IFRO   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |  
-| **RNF-006**  | Elementos Interativos como Botões para Visualizar Fotos, Inscrições e Informações   | A interface deve ser intuitiva e claras tanto para administradores quanto para usuários. |
+| **RNF-005**  | Seguir a Identidade Visual do IFRO   | O design do sistema deve conter as logos de indêntidade do instituto. |  
+| **RNF-006**  | Elementos Interativos   | A interface deve conter elementos interativos como Botões para visualizar fotos, inscrições e informações sobre os eventos. |
 ---  
 
 
@@ -149,8 +149,8 @@ Os protótipos de telas foram desenvolvidos no Figma, representando o fluxo de n
 |NOME|CARGO|E-MAIL|
 |:---|:---|:---|
 |Luis Felipe Lopes|Gerente de projeto/Analista|luis.felipe.lopes1275@gmail.com|
-|Kauã Gabriel Peres Cruz|Analista|email|
-|Deivid Luiz Costa Pereira|Analista|email|
+|Kauã Gabriel Peres Cruz|Analista|kauaperes1402@gmail.com|
+|Deivid Luiz Costa Pereira|Analista|pdeividluiz@gmail.com|
 
 ### CLIENTE
 

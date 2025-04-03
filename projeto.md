@@ -66,7 +66,7 @@ Métodos utilizados para a obtenção dos requisitos do sistema:
 ### USUÁRIOS DO SISTEMA
 |USUÁRIO|DESCRIÇÃO|
 |:---|:---|
-|Administrador|Responsável pela gestão do sistem e administração e cadastro dos eventos mantidos no sistema.|
+|Administrador|Responsável pela gestão do sistema e administração e cadastro dos eventos mantidos no sistema.|
 |Usuários|Consumidores do sistema e alvos da divulgação dos eventos.|
 
 

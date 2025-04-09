@@ -1,7 +1,7 @@
 
 # PROJETO DE SOFTWARE - _Ifro Events_
 
-![Ifro Events](img/Capa.png)
+![Ifro Events](img/Capa1.png)
 
 ## *STAKEHOLDERS*
 |STAKEHOLDER|INTERESSE NO SISTEMA|

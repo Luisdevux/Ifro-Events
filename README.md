@@ -1,6 +1,6 @@
 # Plataforma de Divulgação de Eventos
 **Ifro Events**  
-![Ifro Events](img/Capa.png)
+![Ifro Events](img/Capa1.png)
 
 
 
